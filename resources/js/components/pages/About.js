@@ -17,14 +17,14 @@ export default class About extends Component{
         </div>
       </div>
     </div>
-    <div className="shape1"><img src="public/assets/img/shape1.png" alt="shape" /></div>
-    <div className="shape2 rotateme"><img src="public/assets/img/shape2.svg" alt="shape" /></div>
-    <div className="shape3"><img src="public/assets/img/shape3.svg" alt="shape" /></div>
-    <div className="shape4"><img src="public/assets/img/shape4.svg" alt="shape" /></div>
-    <div className="shape5"><img src="public/assets/img/shape5.png" alt="shape" /></div>
-    <div className="shape6 rotateme"><img src="public/assets/img/shape4.svg" alt="shape" /></div>
-    <div className="shape7"><img src="public/assets/img/shape4.svg" alt="shape" /></div>
-    <div className="shape8 rotateme"><img src="public/assets/img/shape2.svg" alt="shape" /></div>
+    <div className="shape1"><img src="assets/img/shape1.png" alt="shape" /></div>
+    <div className="shape2 rotateme"><img src="assets/img/shape2.svg" alt="shape" /></div>
+    <div className="shape3"><img src="assets/img/shape3.svg" alt="shape" /></div>
+    <div className="shape4"><img src="assets/img/shape4.svg" alt="shape" /></div>
+    <div className="shape5"><img src="assets/img/shape5.png" alt="shape" /></div>
+    <div className="shape6 rotateme"><img src="assets/img/shape4.svg" alt="shape" /></div>
+    <div className="shape7"><img src="assets/img/shape4.svg" alt="shape" /></div>
+    <div className="shape8 rotateme"><img src="assets/img/shape2.svg" alt="shape" /></div>
   </div>
   {/* End Page Title */}
   {/* Start About Area */}
@@ -33,7 +33,7 @@ export default class About extends Component{
       <div className="row">
         <div className="col-lg-6 col-md-12">
           <div className="about-image">
-            <img src="public/assets/img/1.png" alt="image" />
+            <img src="assets/img/1.png" alt="image" />
           </div>
         </div>
         <div className="col-lg-6 col-md-12">
@@ -88,7 +88,7 @@ export default class About extends Component{
         <div className="col-lg-12">
           <div className="single-team">
             <div className="team-image">
-              <img src="public/assets/img/team-image/1.jpg" alt="image" />
+              <img src="assets/img/team-image/1.jpg" alt="image" />
             </div>
             <div className="team-content">
               <div className="team-info">
@@ -108,7 +108,7 @@ export default class About extends Component{
         <div className="col-lg-12">
           <div className="single-team">
             <div className="team-image">
-              <img src="public/assets/img/team-image/2.jpg" alt="image" />
+              <img src="assets/img/team-image/2.jpg" alt="image" />
             </div>
             <div className="team-content">
               <div className="team-info">
@@ -128,7 +128,7 @@ export default class About extends Component{
         <div className="col-lg-12">
           <div className="single-team">
             <div className="team-image">
-              <img src="public/assets/img/team-image/3.jpg" alt="image" />
+              <img src="assets/img/team-image/3.jpg" alt="image" />
             </div>
             <div className="team-content">
               <div className="team-info">
@@ -148,7 +148,7 @@ export default class About extends Component{
         <div className="col-lg-12">
           <div className="single-team">
             <div className="team-image">
-              <img src="public/assets/img/team-image/4.jpg" alt="image" />
+              <img src="assets/img/team-image/4.jpg" alt="image" />
             </div>
             <div className="team-content">
               <div className="team-info">
@@ -168,7 +168,7 @@ export default class About extends Component{
         <div className="col-lg-12">
           <div className="single-team">
             <div className="team-image">
-              <img src="public/assets/img/team-image/5.jpg" alt="image" />
+              <img src="assets/img/team-image/5.jpg" alt="image" />
             </div>
             <div className="team-content">
               <div className="team-info">
@@ -188,7 +188,7 @@ export default class About extends Component{
         <div className="col-lg-12">
           <div className="single-team">
             <div className="team-image">
-              <img src="public/assets/img/team-image/1.jpg" alt="image" />
+              <img src="assets/img/team-image/1.jpg" alt="image" />
             </div>
             <div className="team-content">
               <div className="team-info">
@@ -208,7 +208,7 @@ export default class About extends Component{
         <div className="col-lg-12">
           <div className="single-team">
             <div className="team-image">
-              <img src="public/assets/img/team-image/2.jpg" alt="image" />
+              <img src="assets/img/team-image/2.jpg" alt="image" />
             </div>
             <div className="team-content">
               <div className="team-info">
@@ -228,7 +228,7 @@ export default class About extends Component{
         <div className="col-lg-12">
           <div className="single-team">
             <div className="team-image">
-              <img src="public/assets/img/team-image/3.jpg" alt="image" />
+              <img src="assets/img/team-image/3.jpg" alt="image" />
             </div>
             <div className="team-content">
               <div className="team-info">
@@ -248,7 +248,7 @@ export default class About extends Component{
         <div className="col-lg-12">
           <div className="single-team">
             <div className="team-image">
-              <img src="public/assets/img/team-image/4.jpg" alt="image" />
+              <img src="assets/img/team-image/4.jpg" alt="image" />
             </div>
             <div className="team-content">
               <div className="team-info">
@@ -268,7 +268,7 @@ export default class About extends Component{
         <div className="col-lg-12">
           <div className="single-team">
             <div className="team-image">
-              <img src="public/assets/img/team-image/5.jpg" alt="image" />
+              <img src="assets/img/team-image/5.jpg" alt="image" />
             </div>
             <div className="team-content">
               <div className="team-info">
@@ -307,110 +307,110 @@ export default class About extends Component{
         <div className="row">
           <div className="col-lg-2 col-md-3 col-6">
             <Link to="#">
-              <img src="public/assets/img/partner-img/partner-1.png" alt="partner" />
-              <img src="public/assets/img/partner-img/partner-hover1.png" alt="partner" />
+              <img src="assets/img/partner-img/partner-1.png" alt="partner" />
+              <img src="assets/img/partner-img/partner-hover1.png" alt="partner" />
             </Link>
           </div>
           <div className="col-lg-2 col-md-3 col-6">
             <Link to="#">
-              <img src="public/assets/img/partner-img/partner-2.png" alt="partner" />
-              <img src="public/assets/img/partner-img/partner-hover2.png" alt="partner" />
+              <img src="assets/img/partner-img/partner-2.png" alt="partner" />
+              <img src="assets/img/partner-img/partner-hover2.png" alt="partner" />
             </Link>
           </div>
           <div className="col-lg-2 col-md-3 col-6">
             <Link to="#">
-              <img src="public/assets/img/partner-img/partner-3.png" alt="partner" />
-              <img src="public/assets/img/partner-img/partner-hover3.png" alt="partner" />
+              <img src="assets/img/partner-img/partner-3.png" alt="partner" />
+              <img src="assets/img/partner-img/partner-hover3.png" alt="partner" />
             </Link>
           </div>
           <div className="col-lg-2 col-md-3 col-6">
             <Link to="#">
-              <img src="public/assets/img/partner-img/partner-4.png" alt="partner" />
-              <img src="public/assets/img/partner-img/partner-hover4.png" alt="partner" />
+              <img src="assets/img/partner-img/partner-4.png" alt="partner" />
+              <img src="assets/img/partner-img/partner-hover4.png" alt="partner" />
             </Link>
           </div>
           <div className="col-lg-2 col-md-3 col-6">
             <Link to="#">
-              <img src="public/assets/img/partner-img/partner-5.png" alt="partner" />
-              <img src="public/assets/img/partner-img/partner-hover5.png" alt="partner" />
+              <img src="assets/img/partner-img/partner-5.png" alt="partner" />
+              <img src="assets/img/partner-img/partner-hover5.png" alt="partner" />
             </Link>
           </div>
           <div className="col-lg-2 col-md-3 col-6">
             <Link to="#">
-              <img src="public/assets/img/partner-img/partner-6.png" alt="partner" />
-              <img src="public/assets/img/partner-img/partner-hover6.png" alt="partner" />
+              <img src="assets/img/partner-img/partner-6.png" alt="partner" />
+              <img src="assets/img/partner-img/partner-hover6.png" alt="partner" />
             </Link>
           </div>
           <div className="col-lg-2 col-md-3 col-6">
             <Link to="#">
-              <img src="public/assets/img/partner-img/partner-7.png" alt="partner" />
-              <img src="public/assets/img/partner-img/partner-hover7.png" alt="partner" />
+              <img src="assets/img/partner-img/partner-7.png" alt="partner" />
+              <img src="assets/img/partner-img/partner-hover7.png" alt="partner" />
             </Link>
           </div>
           <div className="col-lg-2 col-md-3 col-6">
             <Link to="#">
-              <img src="public/assets/img/partner-img/partner-8.png" alt="partner" />
-              <img src="public/assets/img/partner-img/partner-hover8.png" alt="partner" />
+              <img src="assets/img/partner-img/partner-8.png" alt="partner" />
+              <img src="assets/img/partner-img/partner-hover8.png" alt="partner" />
             </Link>
           </div>
           <div className="col-lg-2 col-md-3 col-6">
             <Link to="#">
-              <img src="public/assets/img/partner-img/partner-9.png" alt="partner" />
-              <img src="public/assets/img/partner-img/partner-hover9.png" alt="partner" />
+              <img src="assets/img/partner-img/partner-9.png" alt="partner" />
+              <img src="assets/img/partner-img/partner-hover9.png" alt="partner" />
             </Link>
           </div>
           <div className="col-lg-2 col-md-3 col-6">
             <Link to="#">
-              <img src="public/assets/img/partner-img/partner-10.png" alt="partner" />
-              <img src="public/assets/img/partner-img/partner-hover10.png" alt="partner" />
+              <img src="assets/img/partner-img/partner-10.png" alt="partner" />
+              <img src="assets/img/partner-img/partner-hover10.png" alt="partner" />
             </Link>
           </div>
           <div className="col-lg-2 col-md-3 col-6">
             <Link to="#">
-              <img src="public/assets/img/partner-img/partner-11.png" alt="partner" />
-              <img src="public/assets/img/partner-img/partner-hover11.png" alt="partner" />
+              <img src="assets/img/partner-img/partner-11.png" alt="partner" />
+              <img src="assets/img/partner-img/partner-hover11.png" alt="partner" />
             </Link>
           </div>
           <div className="col-lg-2 col-md-3 col-6">
             <Link to="#">
-              <img src="public/assets/img/partner-img/partner-12.png" alt="partner" />
-              <img src="public/assets/img/partner-img/partner-hover12.png" alt="partner" />
+              <img src="assets/img/partner-img/partner-12.png" alt="partner" />
+              <img src="assets/img/partner-img/partner-hover12.png" alt="partner" />
             </Link>
           </div>
           <div className="col-lg-2 col-md-3 col-6">
             <Link to="#">
-              <img src="public/assets/img/partner-img/partner-13.png" alt="partner" />
-              <img src="public/assets/img/partner-img/partner-hover13.png" alt="partner" />
+              <img src="assets/img/partner-img/partner-13.png" alt="partner" />
+              <img src="assets/img/partner-img/partner-hover13.png" alt="partner" />
             </Link>
           </div>
           <div className="col-lg-2 col-md-3 col-6">
             <Link to="#">
-              <img src="public/assets/img/partner-img/partner-14.png" alt="partner" />
-              <img src="public/assets/img/partner-img/partner-hover14.png" alt="partner" />
+              <img src="assets/img/partner-img/partner-14.png" alt="partner" />
+              <img src="assets/img/partner-img/partner-hover14.png" alt="partner" />
             </Link>
           </div>
           <div className="col-lg-2 col-md-3 col-6">
             <Link to="#">
-              <img src="public/assets/img/partner-img/partner-15.png" alt="partner" />
-              <img src="public/assets/img/partner-img/partner-hover15.png" alt="partner" />
+              <img src="assets/img/partner-img/partner-15.png" alt="partner" />
+              <img src="assets/img/partner-img/partner-hover15.png" alt="partner" />
             </Link>
           </div>
           <div className="col-lg-2 col-md-3 col-6">
             <Link to="#">
-              <img src="public/assets/img/partner-img/partner-16.png" alt="partner" />
-              <img src="public/assets/img/partner-img/partner-hover16.png" alt="partner" />
+              <img src="assets/img/partner-img/partner-16.png" alt="partner" />
+              <img src="assets/img/partner-img/partner-hover16.png" alt="partner" />
             </Link>
           </div>
           <div className="col-lg-2 col-md-3 col-6">
             <Link to="#">
-              <img src="public/assets/img/partner-img/partner-17.png" alt="partner" />
-              <img src="public/assets/img/partner-img/partner-hover17.png" alt="partner" />
+              <img src="assets/img/partner-img/partner-17.png" alt="partner" />
+              <img src="assets/img/partner-img/partner-hover17.png" alt="partner" />
             </Link>
           </div>
           <div className="col-lg-2 col-md-3 col-6">
             <Link to="#">
-              <img src="public/assets/img/partner-img/partner-18.png" alt="partner" />
-              <img src="public/assets/img/partner-img/partner-hover18.png" alt="partner" />
+              <img src="assets/img/partner-img/partner-18.png" alt="partner" />
+              <img src="assets/img/partner-img/partner-hover18.png" alt="partner" />
             </Link>
           </div>
         </div>
@@ -458,7 +458,7 @@ export default class About extends Component{
         <Link to="#" className="btn btn-primary">Contact Us</Link>
       </div>
       <div className="map-bg">
-        <img src="public/assets/img/map.png" alt="map" />
+        <img src="assets/img/map.png" alt="map" />
       </div>
     </div>
   </section>
