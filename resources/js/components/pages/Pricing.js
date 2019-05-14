@@ -1,135 +1,74 @@
-import React, {Component} from 'react';
-import {Link} from 'react-router-dom';
-import Navbar from './layouts/Navbar';
-import Footer from './layouts/Footer';
-export default class Contact extends Component{
-    render(){
-        return(
-          <div>
-    
-  <Navbar />
-  {/* End Navbar Area */}
-  {/* Start Page Title */}
-
-  <div className="page-title-area">
-    <div className="d-table">
-      <div className="d-table-cell">
-        <div className="container">
-          <h2>Pricing</h2>
-        </div>
-      </div>
-    </div>
-    <div className="shape1"><img src="public/assets/img/shape1.png" alt="shape" /></div>
-    <div className="shape2 rotateme"><img src="public/assets/img/shape2.svg" alt="shape" /></div>
-    <div className="shape3"><img src="public/assets/img/shape3.svg" alt="shape" /></div>
-    <div className="shape4"><img src="public/assets/img/shape4.svg" alt="shape" /></div>
-    <div className="shape5"><img src="public/assets/img/shape5.png" alt="shape" /></div>
-    <div className="shape6 rotateme"><img src="public/assets/img/shape4.svg" alt="shape" /></div>
-    <div className="shape7"><img src="public/assets/img/shape4.svg" alt="shape" /></div>
-    <div className="shape8 rotateme"><img src="public/assets/img/shape2.svg" alt="shape" /></div>
-  </div>
-  {/* End Page Title */}
-  {/* Start Pricing Area */}
-  <section className="pricing-area ptb-80 bg-f9f6f6">
-    <div className="container">
-      <div className="section-title">
-        <h2>Pricing Plans</h2>
-        <div className="bar" />
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      </div>
-      <div className="row">
-        <div className="col-lg-4 col-md-6">
-          <div className="pricing-table">
-            <div className="pricing-header">
-              <h3>Basic Plan</h3>
-            </div>
-            <div className="price">
-              <span><sup>$</sup>15.00 <span>/Mon</span></span>
-            </div>
-            <div className="pricing-features">
-              <ul>
-                <li className="active">5 GB Bandwidth</li>
-                <li className="active">Highest Speed</li>
-                <li className="active">1 GB Storage</li>
-                <li className="active">Unlimited Website</li>
-                <li className="active">Unlimited Users</li>
-                <li className="active">24x7 Great Support</li>
-                <li>Data Security and Backups</li>
-                <li>Monthly Reports and Analytics</li>
-              </ul>
-            </div>
-            <div className="pricing-footer">
-              <link to="#" className="btn btn-primary" />Select Plan
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-4 col-md-6">
-          <div className="pricing-table active-plan">
-            <div className="pricing-header">
-              <h3>Advanced Plan</h3>
-            </div>
-            <div className="price">
-              <span><sup>$</sup>35.00 <span>/Mon</span></span>
-            </div>
-            <div className="pricing-features">
-              <ul>
-                <li className="active">10 GB Bandwidth</li>
-                <li className="active">Highest Speed</li>
-                <li className="active">3 GB Storage</li>
-                <li className="active">Unlimited Website</li>
-                <li className="active">Unlimited Users</li>
-                <li className="active">24x7 Great Support</li>
-                <li className="active">Data Security and Backups</li>
-                <li>Monthly Reports and Analytics</li>
-              </ul>
-            </div>
-            <div className="pricing-footer">
-              <link to="#" className="btn btn-primary" />Select Plan
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
-          <div className="pricing-table">
-            <div className="pricing-header">
-              <h3>Expert Plan</h3>
-            </div>
-            <div className="price">
-              <span><sup>$</sup>65.00 <span>/Mon</span></span>
-            </div>
-            <div className="pricing-features">
-              <ul>
-                <li className="active">15 GB Bandwidth</li>
-                <li className="active">Highest Speed</li>
-                <li className="active">5 GB Storage</li>
-                <li className="active">Unlimited Website</li>
-                <li className="active">Unlimited Users</li>
-                <li className="active">24x7 Great Support</li>
-                <li className="active">Data Security and Backups</li>
-                <li className="active">Monthly Reports and Analytics</li>
-              </ul>
-            </div>
-            <div className="pricing-footer">
-              <link to="#" className="btn btn-primary" />Select Plan
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div className="shape8 rotateme"><img src="public/assets/img/shape2.svg" alt="shape" /></div>
-    <div className="shape2 rotateme"><img src="public/assets/img/shape2.svg" alt="shape" /></div>
-    <div className="shape7"><img src="public/assets/img/shape4.svg" alt="shape" /></div>
-    <div className="shape4"><img src="public/assets/img/shape4.svg" alt="shape" /></div>
-  </section>
-  {/* End Pricing Area */}
-
-  {/* End Fun Facts Area */}
-  {/* Start Footer Area */}
-  <Footer />
-  {/* End Footer Area */}
-  <div className="go-top"><i data-feather="arrow-up" /></div>
-</div>
-
-       
-            );
-    }
-}
+<!doctype html>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+    <head>
+        <meta name="csrf-token" content="{{ csrf_token() }}">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Laravel</title>
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="{{url('/')}}/public/css/app.css">
+        <!-- Bootstrap Min CSS -->
+        <link rel="stylesheet" href="{{url('/')}}/assets/css/bootstrap.min.css">
+        <!-- Animate CSS -->
+        <link rel="stylesheet" href="{{url('/')}}/assets/css/animate.css">
+        <!-- Meanmenu Min CSS -->
+        <link rel="stylesheet" href="{{url('/')}}/assets/css/meanmenu.css">
+        <!-- Magnific Popup Min CSS -->
+        <link rel="stylesheet" href="{{url('/')}}/assets/css/magnific-popup.min.css">
+        <!-- Owl Carousel Min CSS -->
+        <link rel="stylesheet" href="{{url('/')}}/assets/css/owl.carousel.min.css">
+        <!-- Odometer CSS -->
+        <link rel="stylesheet" href="{{url('/')}}/assets/css/odometer.css">
+        <!-- Slick CSS -->
+        <link rel="stylesheet" href="{{url('/')}}/assets/css/slick.css">
+        <!-- Style CSS -->
+        <link rel="stylesheet" href="{{url('/')}}/assets/css/style.css">
+        <!-- Responsive CSS -->
+        <link rel="stylesheet" href="{{url('/')}}/assets/css/responsive.css">
+    </head>
+    <body>
+        <div id="root"></div>
+    </body>
+    <script type="text/javascript" src="{{url('/')}}/public/js/app.js"></script>
+     <script src="{{url('/')}}/assets/js/jquery.min.js"></script>
+      <!-- Popper Min JS -->
+      <script src="{{url('/')}}/assets/js/popper.min.js"></script>
+      <!-- Bootstrap Min JS -->
+      <script src="{{url('/')}}/assets/js/bootstrap.min.js"></script>
+      <!-- Meanmenu Min JS -->
+      <script src="{{url('/')}}/assets/js/jquery.meanmenu.min.js"></script>
+      <!-- WOW Min JS -->
+      <script src="{{url('/')}}/assets/js/wow.min.js"></script>
+      <!-- Magnific Popup Min JS -->
+      <script src="{{url('/')}}/assets/js/jquery.magnific-popup.min.js"></script>
+      <!-- Appear Min JS -->
+      <script src="{{url('/')}}/assets/js/jquery.appear.js"></script>
+      <!-- Odometer Min JS -->
+      <script src="{{url('/')}}/assets/js/odometer.min.js"></script>
+      <!-- Slick Min JS -->
+      <script src="{{url('/')}}/assets/js/slick.js"></script>
+      <!-- Owl Carousel Min JS -->
+      <script src="{{url('/')}}/assets/js/owl.carousel.min.js"></script>
+      <!-- Feather Icon Min JS -->
+      <script src="{{url('/')}}/assets/js/feather.min.js"></script>
+      <!-- Form Validator Min JS -->
+          <script src="{{url('/')}}/assets/js/form-validator.min.js"></script>
+          <!-- Contact Form Min JS -->
+          <script src="{{url('/')}}/assets/js/contact-form-script.js"></script>
+          <!-- StartP Map JS FILE -->
+          <script src="{{url('/')}}/assets/js/startp-map.js"></script>
+          <!-- Main JS -->
+      <script src="{{url('/')}}/assets/js/main.js"></script>
+      
+      <script>
+        jQuery(document).on('ready', function() {
+          $('.odometer').appear(function(e) {
+            var odo = $(".odometer");
+            odo.each(function() {
+              var countNumber = $(this).attr("data-count");
+              $(this).html(countNumber);
+            });
+          });
+        });
+      </script>
+</html>
