@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Laravel</title>
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="{{url('/')}}/public/css/app.css">
+        <link rel="stylesheet" type="text/css" href="{{url('/')}}/css/app.css">
         <!-- Bootstrap Min CSS -->
         <link rel="stylesheet" href="{{url('/')}}/assets/css/bootstrap.min.css">
         <!-- Animate CSS -->
@@ -29,7 +29,7 @@
     <body>
         <div id="root"></div>
     </body>
-    <script type="text/javascript" src="{{url('/')}}/public/js/app.js"></script>
+    <script type="text/javascript" src="{{url('/')}}/js/app.js"></script>
      <script src="{{url('/')}}/assets/js/jquery.min.js"></script>
       <!-- Popper Min JS -->
       <script src="{{url('/')}}/assets/js/popper.min.js"></script>
