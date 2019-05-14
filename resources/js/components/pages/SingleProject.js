@@ -19,14 +19,14 @@ export default class Contact extends Component{
         </div>
       </div>
     </div>
-    <div className="shape1"><img src="public/assets/img/shape1.png" alt="shape" /></div>
-    <div className="shape2 rotateme"><img src="public/assets/img/shape2.svg" alt="shape" /></div>
-    <div className="shape3"><img src="public/assets/img/shape3.svg" alt="shape" /></div>
-    <div className="shape4"><img src="public/assets/img/shape4.svg" alt="shape" /></div>
-    <div className="shape5"><img src="public/assets/img/shape5.png" alt="shape" /></div>
-    <div className="shape6 rotateme"><img src="public/assets/img/shape4.svg" alt="shape" /></div>
-    <div className="shape7"><img src="public/assets/img/shape4.svg" alt="shape" /></div>
-    <div className="shape8 rotateme"><img src="public/assets/img/shape2.svg" alt="shape" /></div>
+    <div className="shape1"><img src="assets/img/shape1.png" alt="shape" /></div>
+    <div className="shape2 rotateme"><img src="assets/img/shape2.svg" alt="shape" /></div>
+    <div className="shape3"><img src="assets/img/shape3.svg" alt="shape" /></div>
+    <div className="shape4"><img src="assets/img/shape4.svg" alt="shape" /></div>
+    <div className="shape5"><img src="assets/img/shape5.png" alt="shape" /></div>
+    <div className="shape6 rotateme"><img src="assets/img/shape4.svg" alt="shape" /></div>
+    <div className="shape7"><img src="assets/img/shape4.svg" alt="shape" /></div>
+    <div className="shape8 rotateme"><img src="assets/img/shape2.svg" alt="shape" /></div>
   </div>
   {/* End Page Title */}
   {/* Start Project Details Area */}
@@ -35,25 +35,25 @@ export default class Contact extends Component{
       <div className="row">
         <div className="col-lg-6 col-md-6">
           <div className="project-details-image">
-            <img src="public/assets/img/works-image/1.jpg" alt="work" />
+            <img src="assets/img/works-image/1.jpg" alt="work" />
             <link to="https://www.youtube.com/watch?v=bk7McNUjWgw" className="popup-youtube" /><i data-feather="play" />
           </div>
         </div>
         <div className="col-lg-6 col-md-6">
           <div className="project-details-image">
-            <img src="public/assets/img/works-image/2.jpg" alt="work" />
-            <link to="public/assets/img/works-image/2.jpg" className="popup-btn" /><i data-feather="plus" />
+            <img src="assets/img/works-image/2.jpg" alt="work" />
+            <link to="assets/img/works-image/2.jpg" className="popup-btn" /><i data-feather="plus" />
           </div>
         </div>
         <div className="col-lg-6 col-md-6">
           <div className="project-details-image">
-            <img src="public/assets/img/works-image/4.jpg" alt="work" />
-            <link to="public/assets/img/works-image/4.jpg" className="popup-btn" /><i data-feather="plus" />
+            <img src="assets/img/works-image/4.jpg" alt="work" />
+            <link to="assets/img/works-image/4.jpg" className="popup-btn" /><i data-feather="plus" />
           </div>
         </div>
         <div className="col-lg-6 col-md-6">
           <div className="project-details-image">
-            <img src="public/assets/img/works-image/3.jpg" alt="work" />
+            <img src="assets/img/works-image/3.jpg" alt="work" />
             <link to="https://www.youtube.com/watch?v=bk7McNUjWgw" className="popup-youtube" /><i data-feather="play" />
           </div>
         </div>
