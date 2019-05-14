@@ -19,14 +19,14 @@ export default class Contact extends Component{
         </div>
       </div>
     </div>
-    <div className="shape1"><img src="public/assets/img/shape1.png" alt="shape" /></div>
-    <div className="shape2 rotateme"><img src="public/assets/img/shape2.svg" alt="shape" /></div>
-    <div className="shape3"><img src="public/assets/img/shape3.svg" alt="shape" /></div>
-    <div className="shape4"><img src="public/assets/img/shape4.svg" alt="shape" /></div>
-    <div className="shape5"><img src="public/assets/img/shape5.png" alt="shape" /></div>
-    <div className="shape6 rotateme"><img src="public/assets/img/shape4.svg" alt="shape" /></div>
-    <div className="shape7"><img src="public/assets/img/shape4.svg" alt="shape" /></div>
-    <div className="shape8 rotateme"><img src="public/assets/img/shape2.svg" alt="shape" /></div>
+    <div className="shape1"><img src="assets/img/shape1.png" alt="shape" /></div>
+    <div className="shape2 rotateme"><img src="assets/img/shape2.svg" alt="shape" /></div>
+    <div className="shape3"><img src="assets/img/shape3.svg" alt="shape" /></div>
+    <div className="shape4"><img src="assets/img/shape4.svg" alt="shape" /></div>
+    <div className="shape5"><img src="assets/img/shape5.png" alt="shape" /></div>
+    <div className="shape6 rotateme"><img src="assets/img/shape4.svg" alt="shape" /></div>
+    <div className="shape7"><img src="assets/img/shape4.svg" alt="shape" /></div>
+    <div className="shape8 rotateme"><img src="assets/img/shape2.svg" alt="shape" /></div>
   </div>
   {/* End Page Title */}
   {/* Start Contact Info Area */}
@@ -79,7 +79,7 @@ export default class Contact extends Component{
       </div>
       <div className="row h-100 justify-content-center align-items-center">
         <div className="col-lg-6 col-md-12">
-          <img src="public/assets/img/1.png" alt="nbdt" />
+          <img src="assets/img/1.png" alt="nbdt" />
         </div>
         <div className="col-lg-6 col-md-12">
           <form id="contactForm">
